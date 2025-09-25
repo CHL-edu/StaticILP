@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "edges": [
+    {
+      "source": "a",
+      "target": "b",
+      "distance": 1,
+      "total_spectrum": 10
+    },
+    {
+      "source": "a",
+      "target": "f",
+      "distance": 2,
+      "total_spectrum": 10
+    },
+    {
+      "source": "b",
+      "target": "c",
+      "distance": 1,
+      "total_spectrum": 10
+    },
+    {
+      "source": "c",
+      "target": "f",
+      "distance": 2,
+      "total_spectrum": 10
+    },
+    {
+      "source": "c",
+      "target": "d",
+      "distance": 1,
+      "total_spectrum": 10
+    },
+    {
+      "source": "d",
+      "target": "e",
+      "distance": 1,
+      "total_spectrum": 10
+    },
+    {
+      "source": "d",
+      "target": "f",
+      "distance": 3,
+      "total_spectrum": 10
+    },
+    {
+      "source": "e",
+      "target": "f",
+      "distance": 1,
+      "total_spectrum": 10
+    }
+  ],
+  "demands": [
+    {
+      "source": "a",
+      "target": "c",
+      "slots": 2,
+      "reach": 4
+    },
+    {
+      "source": "a",
+      "target": "d",
+      "slots": 1,
+      "reach": 4
+    },
+    {
+      "source": "b",
+      "target": "f",
+      "slots": 2,
+      "reach": 4
+    },
+    {
+      "source": "b",
+      "target": "e",
+      "slots": 1,
+      "reach": 4
+    },
+    {
+      "source": "d",
+      "target": "f",
+      "slots": 3,
+      "reach": 4
+    }
+  ],
+  "spectrum_slots": 10
+}
