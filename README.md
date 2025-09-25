@@ -11,22 +11,10 @@ ILP_RSA_Solver/
 ├── core/
 │   ├── network_model.py          # Network topology and demand management
 │   ├── ilp_formulation.py        # ILP model construction with PuLP
-│   ├── constraint_generator.py   # Constraint generation for routing and spectrum
 │   └── solution_analyzer.py      # Solution analysis and validation
-├── algorithms/
-│   ├── branch_and_cut.py         # Branch-and-Cut implementation (future)
-│   ├── separation_oracles.py     # Separation oracles for min-cut (future)
-│   └── heuristics.py             # Heuristic algorithms (future)
-├── utils/
-│   ├── data_loader.py            # Data loading from JSON/topology files
-│   ├── result_visualizer.py      # Result visualization with English labels
-│   └── performance_metrics.py   # Performance evaluation metrics
-├── tests/
-│   ├── test_small_networks.py    # Small network validation tests
-│   └── validation_cases.py       # Validation test cases
 ├── main.py                       # Main program entry point
-├── topology_6nodes.py            # Original 6-node topology generator
-└── log/topology_6nodes.json      # Generated topology data
+├── log/
+└── Target.md                     # Project documentation
 ```
 
 ## Architecture and Components
@@ -63,12 +51,6 @@ The project implements the complete ILP formulation from the paper:
 ### Running the ILP Solver
 ```bash
 python main.py
-```
-
-### Running Tests
-```bash
-python tests/test_small_networks.py
-python tests/validation_cases.py
 ```
 
 ### Dependencies
