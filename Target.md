@@ -1,4 +1,4 @@
-好的，这是根据您提供的论文《A novel integer linear programming model for routing and spectrum assignment in optical networks》内容，整理成的 **target.md** 格式实现说明：
+论文《A novel integer linear programming model for routing and spectrum assignment in optical networks》：
 
 ---
 
