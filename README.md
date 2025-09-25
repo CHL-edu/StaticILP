@@ -111,8 +111,7 @@ The project requires:
 - Implements complete ILP formulation using PuLP
 - For 6-node network: uses complete constraint enumeration
 - Supports multiple optimization objectives with priority ordering
-- Includes solution validation and performance metrics
-- Target.md,#claude.md
-- Target.md#claude.md
-- Target.md#claude.md
-- Target.md,#claude.md
+
+###
+A simple recurrent of the article"Y. Hadhbi, H. Kerivin and A. Wagler, "A novel integer linear programming model for routing and spectrum assignment in optical networks," 2019 Federated Conference on Computer Science and Information Systems (FedCSIS), Leipzig, Germany, 2019, pp. 127-134, doi: 10.15439/2019F188. keywords: {Routing;Linear programming;Computational modeling;Integer linear programming;Wavelength division multiplexing;Optical network units}"
+
