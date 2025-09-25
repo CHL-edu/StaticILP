@@ -1,7 +1,5 @@
 # README.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project Overview
 
 This is a Python project for implementing the Integer Linear Programming (ILP) model for Routing and Spectrum Assignment (RSA) in elastic optical networks, based on the paper "A novel integer linear programming model for routing and spectrum assignment in optical networks". The project implements a complete edge-node ILP formulation using PuLP with CPLEX solver.
